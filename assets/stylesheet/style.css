@@ -30,3 +30,34 @@ h1{
 time{
     color: rgb(171, 171, 171);
 }
+figure{
+    margin-top: 20px;
+}
+#Photo-Description{
+    font-size: 14px;
+}
+main > p{
+    margin-top: 20px;
+}
+ul{
+    margin-left: 1em;
+    margin-top: 40px;
+    margin bottom: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+.colonna1, .colonna2{
+    width: 25%;
+}
+.colonna3{
+    width: 50%;
+}
+thead{
+    background-color: rgb(58, 150, 242);
+}
+.dispari{
+    background-color: lightskyblue;
+}
