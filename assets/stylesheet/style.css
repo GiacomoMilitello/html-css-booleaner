@@ -14,13 +14,8 @@
 
 #logo{
     width: 25%;
-    
 }
-
-h1{
-    margin-top: 20px;
-}
-#writer{
+.lightgrey{
     margin-top: 5px;
     color: rgb(171, 171, 171);
 }
@@ -30,24 +25,19 @@ h1{
 time{
     color: rgb(171, 171, 171);
 }
-figure{
-    margin-top: 20px;
-}
 #Photo-Description{
     font-size: 14px;
 }
-main > p{
-    margin-top: 20px;
-}
 ul{
     margin-left: 1em;
-    margin-top: 40px;
-    margin bottom: 40px;
 }
 table{
     border-collapse: collapse;
     width: 100%;
     margin: 0 auto;
+}
+th{
+    color: white;
 }
 .colonna1, .colonna2{
     width: 25%;
@@ -60,4 +50,25 @@ thead{
 }
 .dispari{
     background-color: lightskyblue;
+}
+.imgfoot{
+    height: 200px;
+    width: 280px;
+    color: white;
+    padding: 10px;
+}
+#monitor{
+    background-image: url(../img/monitor.jpg)
+}
+#graph{
+    background-image: url(../img/graph.jpg);
+}
+.lighter{
+    background-color: yellow;
+}
+.margin20{
+    margin-top: 20px;
+}
+footer>p{
+    margin-bottom: 5px;
 }
